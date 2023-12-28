@@ -24,6 +24,7 @@
 
 .right-side img{
     width: 15vw;
+    border-radius: 1rem;
 }
 
 .left-side{
@@ -61,7 +62,7 @@
 
 .center-information{
     padding: 3.5rem;
-    margin-left: 48px;
+    margin-left: 3rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -73,13 +74,18 @@
     display: flex;
     flex-direction: row;
     gap: 8px;
-    margin-top: 16px;
+    margin-top: 2rem;
+    justify-content: flex-start;
+    position: relative;
+    left: -16px;
 }
 
 #first-social-media li a{
-    color: black;
+    color: white;
     border: 1px solid black;
-    border-radius: 2px;
+    border-radius: 6px;
+    padding: 10px 16px;
+    background-color: #31304D;
 }
 
 .second-page{
@@ -99,5 +105,7 @@
 }
 
 .info p{
+    margin-top: 1.2rem;
     letter-spacing: 2px;
+    line-height: 2rem;
 }
